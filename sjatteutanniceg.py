@@ -21,7 +21,11 @@ page_three = st.Page(
 
 
 
-pages = st.navigation([page_one, page_two, page_three]
+pages = st.navigation(
+    {
+        "Home" : [page_one],
+        "Kontakt": [page_two, page_three]
+    }
 )
 pages.run()
 
