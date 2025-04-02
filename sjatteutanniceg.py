@@ -5,6 +5,27 @@ st.set_page_config(page_title="Rebecca's CV")
 st.title("Rebecca's CV")
 st.sidebar.success("Select a page above.")
 
+
+page_one = st.Page(
+    page= "pages/CV studier.py",
+    title="CV Studier"
+)
+page_two = st.Page(
+    page='pages/Kontakt.py',
+    title="Kontakt"
+)
+page_three = st.Page(
+    page= "pages/CV Anställningar.py",
+    title= "Anställningar"
+)
+
+
+
+pages = st.navigation([page_one, page_two, page_three]
+)
+pages.run()
+
+
 # Custom background image (apply the CSS styling)
 page_bg_img = f"""
 <style>
