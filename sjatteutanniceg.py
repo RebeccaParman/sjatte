@@ -7,7 +7,7 @@ st.sidebar.success("Select a page above.")
 
 
 page_one = st.Page(
-    page= "pages/CV studier.py",
+    page= "pages/CVStudier.py",
     title="CV Studier"
 )
 page_two = st.Page(
@@ -15,7 +15,7 @@ page_two = st.Page(
     title="Kontakt"
 )
 page_three = st.Page(
-    page= "pages/CV Anställningar.py",
+    page= "pages/CVAnställningar.py",
     title= "Anställningar"
 )
 
